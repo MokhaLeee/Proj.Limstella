@@ -1,0 +1,46 @@
+NAME=[CSKILL_K (3.x) dev] Shield item config
+AUTHOR=Mokha(悠木晓缺)
+
+IF:0xB2A604=0x43 0x53 0x4B 0x49 0x4C 0x4C 0x53 0x59 0x53 0x5F 0x4B 0x2D 0x33
+
+TYPE=STRUCT
+TAG=#ENGINE
+
+INFO=[CSKILL_K (3.x): gShieldItemTable] Configure shield item config\nhttps://github.com/FireEmblemUniverse/fe8u-cskillsys/tree/main/docs/ShieldItem.md
+
+POINTER=0xB2A778
+DATASIZE=36
+DATACOUNT=0x100
+
+LISTNAME=ITEM
+
+B0:$COMBO combo.bool.txt=enabled
+B4:ITEM=item itself(must be set)
+B5:$COMBO combo.bool.txt=consume on attacking
+B6:$COMBO combo.bool.txt=consume on defending
+B7:$COMBO combo.bool.txt=Not consume on missed hit
+b8:DECIMAL=atk correction
+b9:DECIMAL=def correction
+b10:DECIMAL=as correction
+b11:DECIMAL=hit correction
+b12:DECIMAL=avo correction
+b13:DECIMAL=crit correction
+b14:DECIMAL=dodge correction
+b15:DECIMAL=silencer correction
+b16:DECIMAL=pow bonus
+b17:DECIMAL=mag bonus
+b18:DECIMAL=skl bonus
+b19:DECIMAL=spd bonus
+b20:DECIMAL=lck bonus
+b21:DECIMAL=def bonus
+b22:DECIMAL=res bonus
+b23:DECIMAL=mov bonus
+b24:DECIMAL=pow growth bonus
+b25:DECIMAL=mag growth bonus
+b26:DECIMAL=skl growth bonus
+b27:DECIMAL=spd growth bonus
+b28:DECIMAL=lck growth bonus
+b29:DECIMAL=def growth bonus
+b30:DECIMAL=res growth bonus
+W32:$COMBO combo.skills.txt=skill
+W34:$COMBO combo.skills.txt=skill

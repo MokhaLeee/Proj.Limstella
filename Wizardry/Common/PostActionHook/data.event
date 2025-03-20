@@ -1,0 +1,25 @@
+/* bool (*)(ProcPtr proc) */
+ALIGN 4
+gPostActionFuncs:
+    POIN PostAction_CommonStart
+    POIN PostActionThunderstorm
+    POIN PostActionCombatArtEffect PostActionSkillSavageBlow PostActionSkillBreathOfLife PostActionSkillSoulSap
+    POIN PostActionSynchronize
+    POIN PostActionBattleActorHurt PostActionBattleTargetHurt
+    POIN PostAction_BattleActorHeal PostAction_BattleTargetHeal
+    POIN PostAction_Clearance
+    POIN PostActionAlertStance
+    POIN PostActionTsuzuku
+    POIN PostActionGetItem
+    POIN PostActionSwap
+    POIN PostActionPositionReturn
+    POIN PostActionRemoveChillDebuff
+    POIN PostAction_Glorifier
+    POIN PostActionSkillShakedown
+    POIN ResetComboAtkList
+
+    //End
+    POIN CallExternalPostActionHook
+    POIN PostActionPadFunc PostActionPadFunc PostActionPadFunc PostActionPadFunc
+    POIN PostActionEnd
+    WORD 0
