@@ -163,12 +163,12 @@
 /**
  * Install DrawMapActionAnimation
  */
-// #define CONFIG_INSTALL_MAPACTIONANIM
+#define CONFIG_INSTALL_MAPACTIONANIM
 
 /**
  * Install StatScreenfx
  */
-// #define CONFIG_INSTALL_STATSCREENFX
+#define CONFIG_INSTALL_STATSCREENFX
 
 /**
  * Install Bow2Decrease

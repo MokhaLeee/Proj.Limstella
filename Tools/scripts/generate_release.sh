@@ -34,7 +34,7 @@ done
 echo "#endif /*PROCTECT_EN */" >> $REF_EVENT
 
 # make -j
-cp fe8-kernel-* $RELEASE_DIR
+cp fe8-demo-* $RELEASE_DIR
 cp -rf include $RELEASE_DIR
 cp -rf Patches $RELEASE_DIR
 

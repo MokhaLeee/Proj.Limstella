@@ -73,5 +73,3 @@ ALIGN 4
 #ifdef CONFIG_INSTALL_CONVOYEXPA
     #include "Misc/ConvoyExpa/ConvoyExpa.event"
 #endif
-
-#include "External/ExternalPatches.event"

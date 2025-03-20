@@ -35,8 +35,6 @@ ASSERT (FreeSpaceKernel_RelocEnd - CURRENTOFFSET)
 ORG FreeSpaceKernel_Data
     #include "Preload/PreloadData.event"
     #include "Data/Data.event"
-    #include "Debug/Debug.event"
-    #include "Contents/Contents.event"
 FreeSpaceKernel_DataTail:
 MESSAGE FreeSpace___Data___ end at (CURRENTOFFSET) size as (CURRENTOFFSET - FreeSpaceKernel_Data) max (KernelDataSize)
 ASSERT (FreeSpaceKernel_DataEnd - CURRENTOFFSET)
@@ -46,6 +44,11 @@ ORG FreeSpaceFont
 FreeSpaceFontTail:
 MESSAGE FreeSpace___Font___ end at (CURRENTOFFSET) size as (CURRENTOFFSET - FreeSpaceFont) max (FreeSpaceFontSize)
 ASSERT (FreeSpaceFont + FreeSpaceFontSize - CURRENTOFFSET)
+
+ORG FreeSpaceDEMO
+    #include "Debug/Debug.event"
+    #include "Contents/Contents.event"
+MESSAGE FreeSpace___Demo___ end at (CURRENTOFFSET) size as (CURRENTOFFSET - FreeSpaceDEMO)
 
 ORG FreeSpaceKernelText
     /**

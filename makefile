@@ -3,7 +3,7 @@ MAKEFLAGS += --no-print-directory
 include configs.mk
 
 MAIN    := main.event
-FE8_CHX := fe8-kernel-$(CONFIG_VERSION).gba
+FE8_CHX := fe8-demo-$(CONFIG_VERSION).gba
 FE8_GBA := fe8.gba
 
 TOOL_DIR := Tools
