@@ -83,7 +83,7 @@ void DrawHelpBoxLabels_WrankBonus(void)
 	Text_InsertDrawString(&gHelpBoxSt.text[1], 0x30, TEXT_COLOR_47CF, GetStringFromIndex(MSG_04F5));  // avo
 	Text_InsertDrawString(&gHelpBoxSt.text[1], 0x60, TEXT_COLOR_47CF, GetStringFromIndex(MSG_0501));  // crit
 
-	Text_InsertDrawString(&gHelpBoxSt.text[2], 0x00, TEXT_COLOR_47CF, GetStringFromIndex(MSG_51E)); // dodge
+	Text_InsertDrawString(&gHelpBoxSt.text[2], 0x00, TEXT_COLOR_47CF, GetStringFromIndex(MSG_051E)); // dodge
 	Text_InsertDrawString(&gHelpBoxSt.text[2], 0x30, TEXT_COLOR_47CF, GetStringFromIndex(MSG_SILENCER));  // dodge
 	Text_InsertDrawString(&gHelpBoxSt.text[2], 0x70, TEXT_COLOR_47CF, GetStringFromIndex(MSG_MSS_SupportBonus));  // bonus
 }
