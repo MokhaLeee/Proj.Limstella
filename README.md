@@ -1,15 +1,6 @@
-# FE8U C-SkillSys
+# Proj.Limstella
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-
-Modern CHAX for FE8U-SkillSystem.
-
-- [**User manual**](./docs/Abstract.md)
-
-- [Community discussion on FEUniverse](https://feuniverse.us/t/fe8-modern-c-skillsystem-release/24614)
-- [Contributing note](./docs/CONTRIBUTING.md)
-
-**For more notes, see [docs dir](./docs/)**
+A demo based on cskillsys kernel.
 
 ## Custom build
 
